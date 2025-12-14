@@ -1,6 +1,56 @@
-.env
-.venv
-BKP_dados/
+
+# ======================
+# Documentação
+# ======================
 docs/
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# Ambiente
+# ======================
+.env
+.env.*
+!.env.example
+
+.venv/
+venv/
+ENV/
+env/
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+.pytest_cache/
+.mypy_cache/
+
+# ======================
+# Outputs / dados gerados
+# ======================
 output/
+data/
+*.csv
+*.parquet
+
+# ======================
+# IDEs
+# ======================
 .vscode/
+.idea/
+
+# ======================
+# Jupyter / backups
+# ======================
+.ipynb_checkpoints/
+BKP_dados/
