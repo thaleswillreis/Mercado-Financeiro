@@ -1,7 +1,7 @@
+import os
 import yfinance as yf
 import pandas as pd
 from datetime import datetime, timedelta
-import os
 
 
 class DataDownloader:
@@ -134,7 +134,7 @@ class DataPipeline:
     def __init__(self):
         self.downloader = DataDownloader()
         self.transformer = None
-        self.output_dir = "Output"  # pasta padrão de saída
+        self.output_dir = "output"  # pasta padrão de saída
 
         # garante que a pasta exista
         os.makedirs(self.output_dir, exist_ok=True)

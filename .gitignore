@@ -1,5 +1,6 @@
 .env
-BKPDados/
-Docs/
-Output/
+.venv
+BKP_dados/
+docs/
+output/
 .vscode/
