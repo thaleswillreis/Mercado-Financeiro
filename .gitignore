@@ -39,6 +39,7 @@ __pycache__/
 # Outputs / dados gerados
 # ======================
 output/
+prototypes/
 data/
 *.csv
 *.parquet
